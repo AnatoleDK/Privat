@@ -1,0 +1,280 @@
+@import url(reset.css);
+@import url(resp.css);
+*{
+	box-sizing:border-box;
+}
+body {
+	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	color: #212121;
+	background: #E5E5E5;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.wrapper{
+	min-height: 100%;
+    width: 78%;
+    margin: 0 10% 0 14%;
+}
+header{
+	height: 95px;
+	max-width: 1000px;
+	margin-bottom: 10px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header div{
+	height: 46px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+header .monetary-menu{
+	padding-top: 22px;
+	margin-right: -8px;
+	color: #757575;
+}
+.img { 
+	background-image: url(../img/78f32b1095f8275e1b7fc46ebed4614b.png);
+	height: 46px;
+	width: 174px;
+}
+h1{
+	font: bold 27px  Arial, Verdana, Tahoma, sans-serif ; 
+	min-width: 350px;
+	padding-top: 15px;
+}
+header .monetary-menu ul, li{
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align:text-bottom;
+}
+header .monetary-menu ul .cash{
+	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+	color: #757575;
+}
+.monetary-menu .lang-chaked a{
+	margin-left: 6px;
+	color: #757575;
+	text-decoration: none;
+}
+.monetary-menu .lang-chaked a:hover{
+	color: #8BC34A;
+	border-bottom: 1px solid #8BC34A;
+}
+.main-box{
+	display: flex;
+	width: 1000px;
+	height: 100%;
+	padding-bottom: 30px;
+}
+.centr-box{
+	width: 680px;
+	height: 100%;
+}
+.centr-box h4{
+	font: 16px Arial, Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+	color: #212121;
+}
+.centr-box p{
+    font-size: 14px;
+	color: #212121;
+	margin: 5px 0 25px 0;
+}
+.centr-box div div{
+	margin: 6px 8px 0 0;
+	float: left;
+	display: inline-block;
+	height: 26px;
+	width: 30px;
+}
+.centr-box .list-box-first{
+	background: url(../img/Untitled-2.png) -14px -4px no-repeat;
+} 
+.centr-box .list-box-second{
+	background: url(../img/Untitled-2.png) -14px -33px no-repeat;
+} 
+.centr-box .list-box-third{
+	background: url(../img/Untitled-2.png) -14px -66px no-repeat;
+} 
+.centr-box .list-box-fourth{
+	background: url(../img/Untitled-2.png) -14px -97px no-repeat;
+} 
+.centr-box .list-box-fifth{
+	background: url(../img/Untitled-2.png) -14px -129px no-repeat;
+} 
+figure{
+	margin: 0 0 0 35px;
+	text-align: center;
+	width: 570px;
+}
+figure figcaption{
+	padding: 0 25px 0 25px;
+	font: bold 17px Arial, Verdana, Tahoma, sans-serif;
+	margin-top: 10px;
+	}
+figure figcaption a{
+	color: #8BC34A;
+	text-decoration: none;
+}
+aside{
+	width: 320;
+	height: 500px;
+	background:  #FFFFFF;
+	padding: 48px 0 24px 0;
+	text-align: center;
+	position: relative;
+}
+aside h3{
+	font-size: 22px;
+	color: #212121;
+	margin-bottom: 34px;
+}
+aside form label{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+aside form #phon{
+	width: 270px;
+	height: 40px;
+	margin-bottom: 23px;
+}
+aside form .button-send input{
+	width: 68px;
+	height: 40px;
+	margin-bottom: 25px;
+	font: 16px Arial, Verdana, Tahoma, sans-serif;
+	color: #FFFFFF;
+	background: #74B027;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+aside form .button-send input:hover{
+	opacity: 1;
+}
+.qr-code{
+	display: inline-block;
+	height: 116px;
+	width: 116px;
+	background: url(../img/Untitled-2.png)  -57px -8px no-repeat;
+	margin-bottom: 17px;
+}
+aside label, p{
+	font: 14px Arial, Verdana, Tahoma, sans-serif;
+	color: #757575;
+}
+aside .bottom-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+aside .bottom-menu div{
+	width: 105px;
+	margin: 0 24px;
+}
+aside .bottom-menu div span{ 
+	display: inline-block;
+}
+.apple{
+	float: left;
+	background: url(../img/Untitled-2.png) -14px -163px no-repeat;
+	height: 26px;
+	width: 30px;
+	padding-left: 30px;
+}
+.apple:hover{
+	background: url(../img/Untitled-2.png) -60px -228px no-repeat;
+}
+.android{
+	float: left;
+	background: url(../img/Untitled-2.png) -14px -198px no-repeat;
+	height: 26px;
+	width: 30px;
+}
+.android:hover{
+	background: url(../img/Untitled-2.png) -60px -263px no-repeat;
+}
+
+
+.min-apple-android{
+	font-size: 10px;
+    line-height: 10px;
+    color: #9e9e9e;
+
+}
+
+.max-apple-android{
+	font-size: 14px;
+	color: #757575;
+
+}
+.max-apple-android:hover{
+	color: #212121;
+}
+
+
+
+footer {
+	border-top: 1px solid rgba(0, 0, 0, 0.24);
+	width: 1000px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+footer div ul .tel-img{
+	background: url(../img/Untitled-2.png) -14px -262px no-repeat;
+	height: 26px;
+	width: 25px;
+	float: left;
+}
+footer div ul li {
+	font-size: 16px;
+	color: #212121;
+	display: inline-block;
+}
+footer div ul li a{
+	font: 16px Arial, Verdana, Tahoma, sans-serif;
+	color: #757575;
+	text-decoration: none;
+	padding-left: 10px;
+}
+footer div ul li a:hover{
+	color: #8BC34A;
+}
+footer div p{
+	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	display: block;
+	width: 235px;
+}
+footer div p a{
+	font: 14px Arial, Verdana, Tahoma, sans-serif;
+	color: #757575;
+	text-decoration: none;
+}
+footer div p a:hover{
+	color: #8BC34A;
+}
+footer div .img-lock{
+	background: url(../img/Untitled-2.png) -14px -227px no-repeat;
+	height: 26px;
+	width: 30px;
+	float: left;
+}
+.chat{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	height: 60px;
+	width: 60px;
+	background: url(../img/Untitled-2.png) -70px -136px no-repeat;
+}
+.chat:hover{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px, rgba(0, 0, 0, 0.15) 0px 3px 5px 0px;
+	border-radius: 50%;
+}
